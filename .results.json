@@ -2,82 +2,67 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 6,
+    "passes": 13,
     "pending": 0,
-    "failures": 7,
-    "start": "2023-06-13T19:52:17.964Z",
-    "end": "2023-06-13T19:52:18.408Z",
-    "duration": 444
+    "failures": 0,
+    "start": "2023-06-13T20:29:19.780Z",
+    "end": "2023-06-13T20:29:20.225Z",
+    "duration": 445
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 0,
+      "duration": 3,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnFirstTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnFirstTwoDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:16:7)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:26:14)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "allows us to invoke either function from the array",
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:30:14)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should multiply a given value using the created multiplier",
       "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -105,116 +90,74 @@
     {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnFirstTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:72:46)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnFirstTwoDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:76:46)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 0,
+      "duration": 3,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnFirstTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnFirstTwoDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:16:7)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:26:14)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "allows us to invoke either function from the array",
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:30:14)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
-    {
-      "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnFirstTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:72:46)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnFirstTwoDrivers is not defined"
-      }
-    },
-    {
-      "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
-      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:76:46)\n    at processImmediate (internal/timers.js:464:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
-    }
-  ],
-  "passes": [
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should multiply a given value using the created multiplier",
       "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -236,6 +179,20 @@
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
+      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
+      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
